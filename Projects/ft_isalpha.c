@@ -10,13 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-
-int	ft_isalpha(int i)
+ #include <stdio.h>
+int main()
 {
-	if ((i >= 65 && i <= 90) || (i >= 97 && i <= 122))
-	{
-		return (1);
-	}
-	return (0);
+	prinft("Hello from Lori!!");
 }
