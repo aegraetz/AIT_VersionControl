@@ -20,6 +20,6 @@ int	ft_isalnum(int i)
 	}
 	else
 	{
-		return (999);
+		return (0);
 	}
 }
