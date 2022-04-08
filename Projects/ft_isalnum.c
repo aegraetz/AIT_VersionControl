@@ -10,8 +10,16 @@
 /*                                                                            */
 /* ************************************************************************** */
 
- #include <stdio.h>
-int main()
+#include "libft.h"
+
+int	ft_isalnum(int i)
 {
-	prinft("Hey Annie! From Lori!");
+	if ((i >= 65 && i <= 90) || (i >= 97 && i <= 122) || (i >= 48 && i <= 57))
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
