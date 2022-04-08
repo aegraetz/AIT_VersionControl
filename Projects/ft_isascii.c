@@ -9,7 +9,7 @@
 /*   Updated: 2022/02/01 12:36:01 by anniegraetz      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-// Commentzzzzzz
+
 #include "libft.h"
 
 int	ft_isascii(int i)
